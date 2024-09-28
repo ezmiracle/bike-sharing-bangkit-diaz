@@ -6,7 +6,7 @@ import plotly.express as px
 import streamlit as st
 
 # load dataset
-df = pd.read_csv("dataset_dataset.csv")
+df = pd.read_csv("dataset_clean.csv")
 df['dteday'] = pd.to_datetime(df['dteday'])
 
 st.set_page_config(page_title="Project Dicoding bangkit",
