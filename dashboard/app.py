@@ -261,7 +261,7 @@ fig2.update_layout(
 left_column, right_column = st.columns(2)
 left_column.plotly_chart(fig1, use_container_width=True)
 right_column.plotly_chart(fig2, use_container_width=True)
-fig = px.line(hourly_users_df,
+fig = px.line(pengguna_jam,
               x='hr',
               y=['casual_rides', 'registered_rides'],
               color_discrete_sequence=["skyblue", "orange"],
