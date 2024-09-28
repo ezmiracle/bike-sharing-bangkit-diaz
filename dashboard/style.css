@@ -1,0 +1,68 @@
+[data-testid="stSidebar"][aria-expanded="true"]{
+    min-width: 300px;
+    max-width: 300px;}
+
+[data-testid=stSidebar] [data-testid=stImage]{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 10px;}
+
+#bike-sharing-dashboard{
+    margin-top: -20px;
+	padding-bottom: 20px;
+	background-color: rgb(1, 1, 104);
+	margin-bottom: 20px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[data-testid="stMetricValue"] {
+
+    color: #147bdb;
+
+}
+
+[data-testid=stHorizontalBlock] [data-testid=column].css-1r6slb0{
+    margin-top: 10px;
+}
+
+[data-testid=column].css-1rrbo1k:nth-child(2){
+    margin-top: 0px;
+}
+div.css-m9mqwd:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2){
+    margin-top:15px;
+}
+
+[data-testid=column].css-ocqkz7:nth-child(9) > div:nth-child(1){
+    margin-top: -33px;
+}
+div.css-ocqkz7:nth-child(11) > div:nth-child(2){
+    margin-top:35px;
+}
+
+/*recommendation method*/
+.css-z5fcl4 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(1){
+    font-weight: bold;
+}
+
+.css-z5fcl4 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1){
+    margin-bottom: 30px;
+}
