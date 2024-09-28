@@ -194,7 +194,7 @@ if plot_choice == 'Daily Bikeshare User Count':
 
 elif plot_choice == 'Monthly Bikeshare Usage':
    
-    fig = px.line(monthly_users_df,
+    fig = px.line(pengguna_bulanan,
                   x='yearmonth',
                   y=['casual_rides', 'registered_rides', 'total_rides'],
                   color_discrete_sequence=["#2CA02C", "#FF7F0E", "#1F77B4"],  # Mengatur warna secara manual
@@ -217,7 +217,7 @@ elif plot_choice == 'Monthly Bikeshare Usage':
     
     st.plotly_chart(fig, use_container_width=True)
 
-fig1 = px.bar(seasonly_users_df,
+fig1 = px.bar(pengguna_musiman,
               x='season',
               y=['count_rides'],
               color='type_of_rides',
@@ -289,7 +289,7 @@ st.altair_chart(scatter, use_container_width=True)
 
 
 
-st.caption('Copyright (c), created by Muhammad Farid')
+st.caption('Copyright (c), Diaz Darsya Rizqullah')
 
 hide_st_style = """
                 <style>
